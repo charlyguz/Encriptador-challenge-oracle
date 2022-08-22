@@ -12,10 +12,15 @@
 </head>
 <body>
     <img src="./assets/Logologo.svg" alt="logo" id="logo">
-    <input type="text" class="input-text" placeholder="Ingrese su texto aqui">
+    <textarea name="" id="textArea" cols="30" rows="10" class="input-text" placeholder="Ingrese su texto aqui"></textarea>
     <button class="button"  id="encriptar"> Encriptar </button>
     <button class="button"  id="desencriptar"> Desencriptar </button>
     <div class="container-result"> 
+        <textarea name="" class="result" id="presult" cols="30" rows="10"></textarea>
+        <button class="button" id="button-copiar"> Copiar </button>
+        
+    </div>
+    <div class="container-error"> 
         <img src="./assets/Muñecomuñeco.svg" alt="muñeco" id="muñeco">
         <h1 id="h1-container">Ningún mensaje fue encontrado</h1>
         <p id="p-container">Ingresa el texto que desees encriptar o desencriptar</p>
@@ -24,6 +29,6 @@
     <p id="p-warning"> ❗ Solo letras minúsculas y sin acentos</p>
     
 
-
+<script src="script.js"></script>
 </body>
 </html>

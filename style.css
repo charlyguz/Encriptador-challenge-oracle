@@ -13,7 +13,7 @@ body {
 .input-text{
     position: absolute;
     width: 577px;
-    height: 48px;
+    height: 500px;
     left: 240px;
     top: 168px;
     font-family: 'Inter';
@@ -94,6 +94,30 @@ body {
         left: 592px;
     }
 
+    #button-copiar{
+        box-sizing: border-box;
+        background: #D8DFE8;
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+        position: absolute;
+        top: 90%;
+        margin-left:35px;
+    }
+
+    #presult{
+        position: absolute;
+        width: 336px;
+        height: 700px;
+        left: 32px;
+        top: 72px;
+        color: #495057;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 150%;
+    }
+
     .container-result{
         position: absolute;
         height: 920px;
@@ -103,6 +127,21 @@ body {
         background: #FFFFFF;
         box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
         border-radius: 32px;
+        display: none;
+        align-items: center;
+    }
+
+    .container-error{
+        position: absolute;
+        height: 920px;
+        width: 400px;
+        left: 70%;
+        top: 2%;
+        background: #FFFFFF;
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+        border-radius: 32px;
+        display: flex;
+        align-items: center;
     }
 
     #muñeco{
